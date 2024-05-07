@@ -15,6 +15,8 @@
         .container {
             width: 80%;
             margin: 0 auto;
+            padding: 20px 0;
+            max-width: 1200px;
         }
 
         header {
@@ -32,16 +34,22 @@
             color: #9575cd;
         }
 
-        #apps {
-            padding: 50px 0;
+        section {
+            padding: 100px 0;
+            text-align: center;
         }
 
         .app {
             background-color: #fff;
             border-radius: 10px;
-            padding: 20px;
+            padding: 40px;
             margin-bottom: 30px;
             box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .app:hover {
+            transform: translateY(-5px);
         }
 
         .app img {
@@ -50,24 +58,22 @@
             border-radius: 5px;
         }
 
-        #skills {
-            background-color: #fff;
-            padding: 50px 0;
-        }
-
         #skills ul {
             list-style-type: none;
             padding: 0;
-            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         #skills ul li {
-            margin-bottom: 10px;
-        }
-
-        #about {
+            margin: 0 20px;
+            flex: 1 0 300px;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 10px;
             background-color: #fff;
-            padding: 50px 0;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
         }
 
         footer {
@@ -75,6 +81,9 @@
             color: #fff;
             text-align: center;
             padding: 20px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
         }
 
         footer ul {
@@ -97,7 +106,7 @@
     <header>
         <div class="container">
             <h1>The Black Box Factory</h1>
-            <h2>Desarrollamos aplicaciones móviles para hacer la vida más fácil</h2>
+            <h2>Desarrollando aplicaciones móviles para hacer la vida más fácil</h2>
         </div>
     </header>
 
@@ -105,7 +114,7 @@
         <div class="container">
             <h2>Aplicaciones Destacadas</h2>
             <div class="app">
-                <img src="app1.jpg" alt="Nombre de la Aplicación 1">
+                <img src="https://pbs.twimg.com/profile_images/1131570289224179712/yeebSoxF_400x400.png" alt="Balancer">
                 <h3>Balancer</h3>
                 <p>Gestiona los gastos compartidos de la forma más óptima</p>
                 <a href="#">Más Información</a>
