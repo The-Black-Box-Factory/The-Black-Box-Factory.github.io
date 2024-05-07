@@ -1,13 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Black Box Factory</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Black Box Factory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #4a148c;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        h2 {
+            color: #9575cd;
+        }
+
+        #apps {
+            padding: 50px 0;
+        }
+
+        .app {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .app img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        #skills {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        #skills ul li {
+            margin-bottom: 10px;
+        }
+
+        #about {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+
+        footer {
+            background-color: #4a148c;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <h1>Hello world!</h1>
-  <p>The Black Box Factory Team</p>
+    <header>
+        <div class="container">
+            <h1>The Black Box Factory</h1>
+            <h2>Desarrollamos aplicaciones móviles para hacer la vida más fácil</h2>
+        </div>
+    </header>
+
+    <section id="apps">
+        <div class="container">
+            <h2>Aplicaciones Destacadas</h2>
+            <div class="app">
+                <img src="app1.jpg" alt="Nombre de la Aplicación 1">
+                <h3>Balancer</h3>
+                <p>Gestiona los gastos compartidos de la forma más óptima</p>
+                <a href="#">Más Información</a>
+            </div>
+            <!-- Agrega más divs .app según sea necesario -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Nuestras Habilidades</h2>
+            <ul>
+                <li>Frameworks Backend: Django, Express.js</li>
+                <li>Frameworks Frontend: React, Vue.js</li>
+                <li>Bases de Datos: MySQL, MongoDB</li>
+                <li>Plataformas de CI/CD: Jenkins, CircleCI</li>
+                <li>Servidores en la Nube: AWS, Google Cloud Platform</li>
+                <li>Arquitecturas de Despliegue: Kubernetes, Docker</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Quiénes Somos</h2>
+            <p>Somos The Black Box Factory, una empresa apasionada por desarrollar aplicaciones móviles que hacen la vida más fácil para nuestros usuarios. Con un equipo experimentado y dedicado, nos esforzamos por ofrecer soluciones innovadoras que satisfagan las necesidades de nuestros clientes. Nuestra misión es crear aplicaciones intuitivas y eficientes que mejoren la experiencia del usuario en diversos ámbitos. Estamos comprometidos con la excelencia en el desarrollo de software y buscamos constantemente superar las expectativas de nuestros clientes.</p>
+            <p>En The Black Box Factory, valoramos la colaboración, la creatividad y el compromiso con la calidad. Nos enorgullece trabajar en un entorno inclusivo y diverso, donde cada miembro del equipo tiene la oportunidad de crecer y contribuir al éxito de la empresa. Creemos en la transparencia, la honestidad y el respeto en todas nuestras relaciones comerciales y estamos comprometidos con la satisfacción del cliente en cada proyecto que emprendemos.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+            <a href="#">Contacto</a>
+        </div>
+    </footer>
 </body>
 </html>
